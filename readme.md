@@ -1,3 +1,3 @@
 ## Hello Git
 
-I am adding this from stick branch
+# I am adding this from stick branch
