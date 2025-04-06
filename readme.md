@@ -15,4 +15,13 @@
 
 7) Merge the changes
 
-8) Pull changes to your local main branch using  'git pull'
+8) Pull changes to your local main branch using 'git pull'
+
+## Handling merge conflicts
+1) Merge changes from the main branch into the branch that you are currently in using 'git merge main'
+
+2) Check out the versioning system on your editor to see merge conflicts
+
+3) Figure out which lines of code you want to keep and apply changes
+
+4) Repeat steps 5 to 8 of your standard workflow
