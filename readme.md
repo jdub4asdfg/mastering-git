@@ -34,3 +34,14 @@ Lets say we committed changes we want to discard. We can revert to an older comm
 2) A mixed reset reverts back to a commit hash but does not stage changes made after that commit hash, though those changes will still be present in your project. It can be done using 'git reset -commit hash-
 
 3) A hard reset reverts back to a commit hash and discards all changes made after that commit hash, no staging and saving. It can be done using 'git reset --hard -commit hash-'
+
+## Stashing
+Lets say we were implementing something but in the middle of it, we were called on to fix an urgent bug. To save the code we wrote so we can tend to the urgent bug, we use can use stashing.
+
+1) We type 'git stash'
+
+2) Work on the urgent bug fix
+
+3) To get back to our stash, we use 'git stash apply -stash name-', use 'git stash list' to look for your stash name
+
+4) If there are merge conflicts, resolve them to keep the bug fix and your stashed code
